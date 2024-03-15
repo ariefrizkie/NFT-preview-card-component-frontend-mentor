@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-family: "Outfit", sans-serif;
+}
+main {
+  width: 100vw;
+  height: 100vh;
+  background-color: hsl(217, 54%, 11%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border-radius: 15px;
+  width: 250px;
+  height: 450px;
+  padding: 20px;
+  background-color: hsl(216, 50%, 16%);
+}
+
+.box .img-box img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.box .title {
+  font-size: 1.2rem;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 10px;
+}
+
+.box .desc {
+  color: hsl(215, 51%, 70%);
+  font-size: 0.8rem;
+  font-weight: 300;
+}
+
+.box .eth-coin {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.6rem;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.box .eth-coin .ethbox {
+  color: hsl(178, 100%, 50%);
+  display: flex;
+  gap: 10px;
+}
+.box .eth-coin .daysbox {
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  gap: 10px;
+}
+.box .author {
+  color: hsl(215, 51%, 70%);
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  height: 40px;
+  border-top: solid hsl(215, 32%, 27%);
+  padding-top: 10px;
+}
+
+.box .author img {
+  height: 100%;
+}
+
+.box .author p {
+  font-size: 0.8rem;
+}
+.box .author p span {
+  font-size: 0.8rem;
+  color: hsl(0, 0%, 100%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
